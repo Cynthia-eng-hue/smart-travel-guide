@@ -1,0 +1,85 @@
+// src/assets/styles/variables.scss
+// 清新绿色主题配色方案 - 统一风格
+
+// 主色调 - 采用清新绿色系
+$primary-color: #4CAF50; // 主色 - 清新绿
+$primary-light: #81C784; // 主色浅 - 浅绿
+$primary-dark: #2E7D32; // 主色深 - 深绿
+$primary-accent: #1B5E20; // 主色强调 - 极深绿
+
+// 绿色变体 - 增加深度层次
+$green-transparent: rgba(76, 175, 80, 0.1); // 透明绿
+$green-lightest: #F1F8E9; // 极浅绿
+$green-light: #E8F5E8; // 浅绿
+$green-medium: #A5D6A7; // 中绿
+$green-deep: #66BB6A; // 深绿
+$green-dark: #388E3C; // 极深绿
+
+// 白色变体 - 增加质感层次
+$white-pure: #FFFFFF; // 纯白
+$white-cream: #F9FFF9; // 奶油白
+$white-ice: #F1F8E9; // 冰白
+$white-smoke: #F8FDF8; // 烟白
+
+// 辅助色 - 和谐的色彩搭配
+$success-color: #4CAF50; // 成功色 - 清新绿
+$warning-color: #F59E0B; // 警告色 - 现代橙
+$danger-color: #EF4444; // 危险色 - 现代红
+$info-color: #66BB6A; // 信息色 - 中绿
+
+// 自定义旅游主题色调
+$travel-primary: #4CAF50; // 旅游主色 - 清新绿
+$travel-secondary: #81C784; // 旅游辅助色 - 浅绿
+$travel-accent: #2E7D32; // 旅游强调色 - 深绿
+$travel-light: #F8FDF8; // 旅游浅色 - 浅灰白
+$travel-bg: #FFFFFF; // 背景色 - 白色
+
+// 文字颜色 - 更有层次感
+$text-primary: #1B5E20; // 主文字 - 极深绿
+$text-regular: #2E7D32; // 常规文字 - 深绿
+$text-secondary: #4CAF50; // 次要文字 - 清新绿
+$text-placeholder: #81C784; // 占位文字 - 浅绿
+
+// 边框颜色 - 更精致
+$border-base: #E8F5E8; // 基础边框
+$border-light: #F1F8E9; // 浅色边框
+$border-lighter: #F8FDF8; // 更浅色边框
+$border-extra-light: #FFFFFF; // 极浅边框
+
+// 阴影 - 更柔和、更有层次
+$box-shadow-light: 0 1px 3px rgba(76, 175, 80, 0.1);
+$box-shadow-base: 0 4px 6px -1px rgba(76, 175, 80, 0.1), 0 2px 4px -1px rgba(76, 175, 80, 0.06);
+$box-shadow-hover: 0 10px 15px -3px rgba(76, 175, 80, 0.15), 0 4px 6px -2px rgba(76, 175, 80, 0.1);
+$box-shadow-dropdown: 0 20px 25px -5px rgba(76, 175, 80, 0.15), 0 10px 10px -5px rgba(76, 175, 80, 0.1);
+
+// 渐变 - 增加更多深度和层次感
+$gradient-primary: linear-gradient(90deg, #4CAF50 0%, #81C784 100%);
+$gradient-secondary: linear-gradient(90deg, #2E7D32 0%, #1B5E20 100%);
+$gradient-accent: linear-gradient(90deg, #81C784 0%, #4CAF50 100%);
+$gradient-travel: linear-gradient(90deg, #F1F8E9 0%, #E8F5E8 100%);
+$gradient-green: linear-gradient(90deg, #4CAF50 0%, #66BB6A 100%);
+$gradient-green-light: linear-gradient(90deg, #E8F5E8 0%, #A5D6A7 100%);
+$gradient-deep: linear-gradient(90deg, #2E7D32 0%, #1B5E20 100%);
+$gradient-soft: linear-gradient(90deg, #F1F8E9 0%, #F9FFF9 100%);
+
+// 间距
+$spacing-xs: 0.25rem; // 4px
+$spacing-sm: 0.5rem; // 8px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
+$spacing-xl: 2rem; // 32px
+$spacing-2xl: 3rem; // 48px
+$spacing-3xl: 4rem; // 64px
+
+// 圆角
+$border-radius-sm: 0.25rem; // 4px
+$border-radius-md: 0.375rem; // 6px
+$border-radius-lg: 0.5rem; // 8px
+$border-radius-xl: 0.75rem; // 12px
+$border-radius-2xl: 1rem; // 16px
+$border-radius-full: 9999px; // 圆形
+
+// 动画
+$transition-fast: 0.15s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
