@@ -142,7 +142,7 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
 import { ElMessage } from 'element-plus'
-import { Location, CoffeeCup, Wifi, Place, Service, Sunny, Food } from '@element-plus/icons-vue'
+import { Location, CoffeeCup, Iphone, Place, Service, Sunny, Food } from '@element-plus/icons-vue'
 
 const router = useRouter()
 
